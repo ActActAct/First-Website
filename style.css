@@ -47,24 +47,25 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     width: 450px;
 }
 
 .heading {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
 .text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
 }
 
 button {
@@ -76,5 +77,5 @@ button {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    width: 150px;
+    width: 110px;
 }
