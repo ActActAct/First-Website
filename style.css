@@ -92,18 +92,21 @@ button {
 
 .second-layer .container{
     display: flex;
-
+    justify-content: space-between;
 }
 
 .second-layer .item{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.second-layer .box{
     width: 300px;
     height: 300px;
-    background-color: #F9FAF8;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
+    border: #3882F6;
+    border-radius: 5px;
+}
+
+.second-layer .box-text{
+    text-align: center;
 }
