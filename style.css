@@ -69,7 +69,7 @@ a {
     margin-bottom: 10px;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
@@ -140,3 +140,51 @@ button {
     text-align: right;
     font-weight: bold;
 }
+
+/*FOURTH LAYER*/
+.fourth-layer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    gap: 200px;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+.small-box .action{
+    text-align: left;
+}   
+
+.small-box .action .call{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.small-box .action .text{
+    font-size: 18px;
+}
+
+.button2 {
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #3882F6;
+    width: 150px;
+    border: 2px solid white;
+}
+
+/*FOOTER*/
