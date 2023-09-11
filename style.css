@@ -89,3 +89,21 @@ button {
     text-align: center;
     padding: 50px;
 }
+
+.second-layer .container{
+    display: flex;
+
+}
+
+.second-layer .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #F9FAF8;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
